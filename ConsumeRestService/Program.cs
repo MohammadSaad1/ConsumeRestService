@@ -16,7 +16,7 @@ namespace ConsumeRestService
             {
                 using (HttpClient client = new HttpClient())
                 {
-                    string content = await client.GetStringAsync("http://localhost:59356/RestServiceImpl.svc/catch");
+                    string content = await client.GetStringAsync("http://restserviceeksamen20180108025355.azurewebsites.net/RestServiceImpl.svc/catch");
                     IList<Catch> cList = JsonConvert.DeserializeObject<IList<Catch>>(content);
                     return cList;
                 }
