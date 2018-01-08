@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumeRestService", "ConsumeRestService\ConsumeRestService.csproj", "{C561887F-D718-4831-A8D0-96D84663B53B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C561887F-D718-4831-A8D0-96D84663B53B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C561887F-D718-4831-A8D0-96D84663B53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C561887F-D718-4831-A8D0-96D84663B53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C561887F-D718-4831-A8D0-96D84663B53B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B357BB2-CD63-4185-AB05-260590A25E3B}
+	EndGlobalSection
+EndGlobal
